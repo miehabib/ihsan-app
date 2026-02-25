@@ -1,0 +1,56 @@
+name: ihsan_app
+description: A scalable Islamic mobile application built with Clean Architecture.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Navigation
+  go_router: ^14.2.0
+
+  # Prayer Times Calculation
+  adhan: ^2.0.0
+
+  # Location Services
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+
+  # Compass / Sensors
+  flutter_compass: ^0.8.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Equality / Value Objects
+  equatable: ^2.0.5
+
+  # Functional Programming Helpers
+  dartz: ^0.10.1
+
+  # Formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  riverpod_generator: ^2.4.0
+  build_runner: ^2.4.9
+  mockito: ^5.4.4
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
